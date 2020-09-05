@@ -4,6 +4,11 @@ using System.Text;
 
 namespace Composite
 {
+    /// <summary>
+    /// This class is composite of leaf classes.
+    /// Have the children, what is part of composite.
+    /// Agregation relationship.
+    /// </summary>
     class Picture : Graphic
     {
         private List<Graphic> children = new List<Graphic>();
