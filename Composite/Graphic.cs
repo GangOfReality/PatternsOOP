@@ -9,7 +9,7 @@ namespace Composite
     /// Declare interface for parent classes, and implement common methods.
     /// May contains link to parent OBJECT (composite object).
     /// </summary>
-    abstract class Graphic
+    public abstract class Graphic
     {
         public Graphic Parent;
 

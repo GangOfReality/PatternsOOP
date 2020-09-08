@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 using Composite;
+using Strategy;
 
 namespace PatternsOOP
 {
@@ -13,6 +14,7 @@ namespace PatternsOOP
             Console.WriteLine("Hello World!");
 
             ClientComposite.ExecuteScript();
+            ClientStrategy.ExecuteScript();
         }
     }
 }
