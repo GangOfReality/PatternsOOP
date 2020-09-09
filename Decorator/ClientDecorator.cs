@@ -8,6 +8,9 @@ namespace Decorator
     {
         public static void ExecuteScript()
         {
+            Console.WriteLine(new string('_', 100));
+            Console.WriteLine("DECORATOR\n\n");
+
             IVisualComponent visualComponent = new TextView();
 
             visualComponent.Draw();

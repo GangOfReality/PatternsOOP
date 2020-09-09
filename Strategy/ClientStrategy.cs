@@ -8,6 +8,9 @@ namespace Strategy
     {
         public static void ExecuteScript()
         {
+            Console.WriteLine(new string('_', 100));
+            Console.WriteLine("STRATEGY\n\n");
+
             // Set compositor
             Composition composition = new Composition(new SimpleCompositor());
 

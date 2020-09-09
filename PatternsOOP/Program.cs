@@ -12,10 +12,10 @@ namespace PatternsOOP
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Patterns!\n");
 
-            //ClientComposite.ExecuteScript();
-            //ClientStrategy.ExecuteScript();
+            ClientComposite.ExecuteScript();
+            ClientStrategy.ExecuteScript();
             ClientDecorator.ExecuteScript();
         }
     }

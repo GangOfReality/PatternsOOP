@@ -8,6 +8,8 @@ namespace Composite
     {
         public static void ExecuteScript()
         {
+            Console.WriteLine(new string('_', 100));
+            Console.WriteLine("COMPOSITE\n\n");
             List<Graphic> graphics = new List<Graphic>();
 
             graphics.Add(new Text());
