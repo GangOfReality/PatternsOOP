@@ -12,7 +12,7 @@ namespace Composite
     {
         public override void Draw()
         {
-            Console.WriteLine("Hello Patterns!");
+            Console.WriteLine("Hello Composite!");
         }
     }
 }
