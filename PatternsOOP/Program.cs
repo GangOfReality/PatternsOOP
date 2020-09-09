@@ -4,6 +4,7 @@ using System.Text;
 
 using Composite;
 using Strategy;
+using Decorator;
 
 namespace PatternsOOP
 {
@@ -13,8 +14,9 @@ namespace PatternsOOP
         {
             Console.WriteLine("Hello World!");
 
-            ClientComposite.ExecuteScript();
-            ClientStrategy.ExecuteScript();
+            //ClientComposite.ExecuteScript();
+            //ClientStrategy.ExecuteScript();
+            ClientDecorator.ExecuteScript();
         }
     }
 }
