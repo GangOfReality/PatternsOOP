@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj" />
     <ProjectReference Include="..\Composite\Composite.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />

@@ -5,6 +5,7 @@ using System.Text;
 using Composite;
 using Strategy;
 using Decorator;
+using AbstractFactory;
 
 namespace PatternsOOP
 {
@@ -17,6 +18,7 @@ namespace PatternsOOP
             ClientComposite.ExecuteScript();
             ClientStrategy.ExecuteScript();
             ClientDecorator.ExecuteScript();
+            ClientAbstractFactory.ExecuteScript();
         }
     }
 }
