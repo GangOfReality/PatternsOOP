@@ -25,6 +25,7 @@ namespace Composite
             foreach (var graphic in graphics)
             {
                 graphic.Draw();
+                Console.WriteLine("\n");
             }
         }
     }
