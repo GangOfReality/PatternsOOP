@@ -17,5 +17,12 @@ namespace Command
         {
             this.MenuItems.Add(menuItem);
         }
+        public void InitializeMenu(int documentNumber)
+        {
+            AddMenuItem(new MenuItem(new CopyCommand(Documents[documentNumber])));
+            AddMenuItem(new MenuItem(new PasteCommand(Documents[documentNumber])));
+            AddMenuItem(new MenuItem(new OpenCommand(Documents[documentNumber])));
+            AddMenuItem(new MenuItem(new CloseCommand(Documents[documentNumber])));
+        }
     }
 }
