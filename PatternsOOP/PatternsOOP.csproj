@@ -13,6 +13,7 @@
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Iterator\Iterator.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />
+    <ProjectReference Include="..\Visitor\Visitor.csproj" />
   </ItemGroup>
 
 </Project>

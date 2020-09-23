@@ -9,6 +9,7 @@ using AbstractFactory;
 using Bridge;
 using Command;
 using Iterator;
+using Visitor;
 
 namespace PatternsOOP
 {
@@ -25,6 +26,7 @@ namespace PatternsOOP
             ClientBridge.ExecuteScript();
             ClientCommand.ExecuteScript();
             ClientIterator.ExecuteScript();
+            ClientVisitor.ExecuteScript();
         }
     }
 }
